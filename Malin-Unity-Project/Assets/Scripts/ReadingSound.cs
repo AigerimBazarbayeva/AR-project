@@ -8,25 +8,25 @@ public class ReadingSound : MonoBehaviour, IVirtualButtonEventHandler {
 
     public Text consoleText;
     public AudioSource sound;
-    private string nameObj;
+    //private string nameObj;
 
     // Use this for initialization
     void Start () {
         GameObject virtualButtonObject = this.gameObject;
         virtualButtonObject.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
-        nameObj = virtualButtonObject.name;
-        consoleText.text = "";
+        //nameObj = virtualButtonObject.name;
+        //consoleText.text = "";
 
     }
 	
 	public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        consoleText.text = "Pressing the button " + nameObj;
+        //consoleText.text = "Pressing the button " + nameObj;
         sound.Play();
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        consoleText.text = "";
+        //consoleText.text = "";
     }
 }

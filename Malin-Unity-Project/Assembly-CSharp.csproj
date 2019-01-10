@@ -66,10 +66,9 @@
     <Compile Include="Assets\Models\JSLizards\Iguana\Scripts\IguanaUserController.cs" />
     <Compile Include="Assets\Models\Low Poly Fruits\resources\fruits_tester.cs" />
     <Compile Include="Assets\Scripts\consoleText.cs" />
+    <Compile Include="Assets\Scripts\octopusSpin.cs" />
     <Compile Include="Assets\Scripts\RayCastExample.cs" />
     <Compile Include="Assets\Scripts\ReadingSound.cs" />
-    <Compile Include="Assets\Scripts\ReadingText.cs" />
-    <Compile Include="Assets\Scripts\sceneChange.cs" />
     <Compile Include="Assets\Scripts\switchScene.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\Alphabet-Flipbook.xml" />

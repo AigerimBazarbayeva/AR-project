@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class switchScene : MonoBehaviour, ITrackableEventHandler
 {
-    private TrackableBehaviour mTrackBehave;
+    private TrackableBehaviour mImageTarget;
 
     // Use this for initialization
     void Start()
     {
-        mTrackBehave = GetComponent<TrackableBehaviour>();
+        mImageTarget = GetComponent<TrackableBehaviour>();
 
-        if (mTrackBehave)
+        // check if a image target has been found and register it as an event handler.
+        if (mImageTarget)
         {
-            mTrackBehave.RegisterTrackableEventHandler(this);
+            mImageTarget.RegisterTrackableEventHandler(this);
         }
       
     }
@@ -25,19 +25,18 @@ public class switchScene : MonoBehaviour, ITrackableEventHandler
               TrackableBehaviour.Status previousStatus,
               TrackableBehaviour.Status newStatus)
     {
+        // if any new image target have been detected or tracked
         if (newStatus == TrackableBehaviour.Status.DETECTED ||
             newStatus == TrackableBehaviour.Status.TRACKED)
         {
             OnTrackingFound();
-          
         }
         
     }
     private void OnTrackingFound()
     {
-        //tex.text = "Trackable " + mTrackableBehaviour.TrackableName + " found";
-
-        string s = "scene_" + mTrackBehave.TrackableName;
+        // mTrackBehave.TrackableName = name of Image target
+        string s = "scene_" + mImageTarget.TrackableName;
 
         SceneManager.LoadScene(s);
     }
