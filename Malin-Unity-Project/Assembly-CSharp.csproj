@@ -61,12 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Models\3DTOYS\rotatecamera.cs" />
+    <Compile Include="Assets\Models\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\Models\JSLizards\Iguana\Scripts\IguanaCameraScript.cs" />
     <Compile Include="Assets\Models\JSLizards\Iguana\Scripts\IguanaCharacter.cs" />
     <Compile Include="Assets\Models\JSLizards\Iguana\Scripts\IguanaUserController.cs" />
     <Compile Include="Assets\Models\Low Poly Fruits\resources\fruits_tester.cs" />
     <Compile Include="Assets\Scripts\consoleText.cs" />
+    <Compile Include="Assets\Scripts\iguanaAni.cs" />
     <Compile Include="Assets\Scripts\octopusSpin.cs" />
+    <Compile Include="Assets\Scripts\playAnimation.cs" />
     <Compile Include="Assets\Scripts\RayCastExample.cs" />
     <Compile Include="Assets\Scripts\ReadingSound.cs" />
     <Compile Include="Assets\Scripts\switchScene.cs" />
@@ -75,7 +79,9 @@
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\Models\3DTOYS\readme.txt" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Models\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
