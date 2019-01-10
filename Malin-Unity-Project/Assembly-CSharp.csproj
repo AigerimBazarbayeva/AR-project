@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{0EF81C02-6595-6709-1569-427D252DF484}</ProjectGuid>
+    <ProjectGuid>{8F442081-1F2B-D9D4-5F00-5F01638BACA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,7 +69,8 @@
     <Compile Include="Assets\Scripts\RayCastExample.cs" />
     <Compile Include="Assets\Scripts\ReadingSound.cs" />
     <Compile Include="Assets\Scripts\ReadingText.cs" />
-    <Compile Include="Assets\Scripts\SwitchScene1.cs" />
+    <Compile Include="Assets\Scripts\sceneChange.cs" />
+    <Compile Include="Assets\Scripts\switchScene.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\Alphabet-Flipbook.xml" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
@@ -86,16 +87,16 @@
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\Alphabet.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/Alphabet-Flipbook/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/GIT-ALPHABET/Malin-Unity-Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/Alphabet-Flipbook/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/GIT-ALPHABET/Malin-Unity-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/Alphabet-Flipbook/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/GIT-ALPHABET/Malin-Unity-Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/Alphabet-Flipbook/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Malin/Documents/FH Hagenberg/Agumented Reality/GIT-ALPHABET/Malin-Unity-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -331,11 +332,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{00CD4FA2-50AC-B7CD-F60C-26BA0249FC58}</Project>
+      <Project>{7725A7E7-EB1D-90C6-31FD-CE6785080CB1}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{E4AACDF5-AD7B-73FC-2BBD-7DD5B22B65F0}</Project>
+      <Project>{E247387C-8647-7817-20BA-12E421866C4B}</Project>
       <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
   </ItemGroup>
