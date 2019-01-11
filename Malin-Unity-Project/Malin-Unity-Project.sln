@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaEditorScripts", "VuforiaEditorScripts.csproj", "{E247387C-8647-7817-20BA-12E421866C4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{322D89D5-ECD8-7CC5-C88D-0E5A4EFDB934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{E247387C-8647-7817-20BA-12E421866C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E247387C-8647-7817-20BA-12E421866C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E247387C-8647-7817-20BA-12E421866C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322D89D5-ECD8-7CC5-C88D-0E5A4EFDB934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322D89D5-ECD8-7CC5-C88D-0E5A4EFDB934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322D89D5-ECD8-7CC5-C88D-0E5A4EFDB934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322D89D5-ECD8-7CC5-C88D-0E5A4EFDB934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

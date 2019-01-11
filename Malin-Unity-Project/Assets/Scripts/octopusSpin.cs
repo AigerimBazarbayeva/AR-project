@@ -18,15 +18,6 @@ public class octopusSpin : MonoBehaviour, IVirtualButtonEventHandler
 
         octopus = GameObject.Find("octopus_pink");
 
-        if (octopus.name == "octopus_pink")
-        {
-            text.text = "found the gameobject";
-        }
-        else
-        {
-            text.text = "Didn't find the object.";
-        }
-
     }
 	
 	// Update is called once per frame
@@ -39,7 +30,6 @@ public class octopusSpin : MonoBehaviour, IVirtualButtonEventHandler
         //octopus.transform.Rotate(Vector3.right * Time.deltaTime);
         //octopus.transform.RotateAround(octopus.transform.position, octopus.transform.up, Time.deltaTime * 10f);
         octopus.GetComponent<Animation>().Play();
-        text.text = "Should be playing animation...";
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)

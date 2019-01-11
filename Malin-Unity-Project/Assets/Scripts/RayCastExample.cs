@@ -26,8 +26,6 @@ public class RayCastExample : MonoBehaviour {
             {
                 //We should have hit something with a 2D Physics collider!
                 GameObject touchedObject = hitInformation.transform.gameObject;
-                //touchedObject should be the object someone touched.
-                Debug.Log("Touched " + touchedObject.transform.name);
             }
         }
     }

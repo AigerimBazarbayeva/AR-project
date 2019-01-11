@@ -29,7 +29,6 @@ public class playAnimation : MonoBehaviour, IVirtualButtonEventHandler
         //octopus.transform.Rotate(Vector3.right * Time.deltaTime);
         //octopus.transform.RotateAround(octopus.transform.position, octopus.transform.up, Time.deltaTime * 10f);
         gameObj.GetComponent<Animation>().Play();
-        text.text = "Should be playing animation...";
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)

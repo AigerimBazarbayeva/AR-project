@@ -7,7 +7,6 @@ using Vuforia;
 public class iguanaAni : MonoBehaviour, IVirtualButtonEventHandler
 {
 
-    public Text text;
     public IguanaCharacter iguanaCharacter;
 
     // Use this for initialization
@@ -25,7 +24,6 @@ public class iguanaAni : MonoBehaviour, IVirtualButtonEventHandler
         //octopus.transform.Rotate(Vector3.right * Time.deltaTime);
         //octopus.transform.RotateAround(octopus.transform.position, octopus.transform.up, Time.deltaTime * 10f);
         iguanaCharacter.Attack();
-        text.text = "Should be playing animation...";
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
